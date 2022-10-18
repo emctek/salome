@@ -1,0 +1,7 @@
+{
+  "name": "monet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
