@@ -9,6 +9,7 @@ import { AltasInDiPageRoutingModule } from './altas-in-di-routing.module';
 import { AltasInDiPage } from './altas-in-di.page';
 import { ComponentesModule } from '../componentes/componentes.module';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -19,4 +20,4 @@ import { ComponentesModule } from '../componentes/componentes.module';
   ],
   declarations: [AltasInDiPage]
 })
-export class AltasInDiPageModule {}
+export class AltasInDiPageModule {}AnimationEffect

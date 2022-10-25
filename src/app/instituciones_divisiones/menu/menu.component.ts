@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit {
   titulo: string;
   componente: string;
 
-  constructor(private  opciones: ListamenuService) { }
+  constructor(private  opciones: ListamenuService, private router: Router) { }
 
 
 
@@ -28,6 +28,11 @@ export class MenuComponent implements OnInit {
     this.componente = com;
 
 
+      }
+
+      onClick(com: string){
+
+        this.router.navigate([com]);
       }
 
 }

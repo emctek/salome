@@ -9,8 +9,7 @@ export class ListamenuService {
     {
       id: 1,
       opcion: 'Nueva Institucion',
-      com: '<app-nuevainstitucion></app-nuevainstitucion>'
-
+      com: 'altas-in-di/Menu'
 
     },
     {
