@@ -20,4 +20,4 @@ import { ComponentesModule } from '../componentes/componentes.module';
   ],
   declarations: [AltasInDiPage]
 })
-export class AltasInDiPageModule {}AnimationEffect
+export class AltasInDiPageModule {}
